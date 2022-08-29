@@ -9,7 +9,10 @@ public class NumberToBreakOn {
             }else if (i > toBreakWith){
                 break;
             }else{
-                System.out.println(i);
+                if(i>0){
+                    System.out.println(i);
+                }
+
             }
         }
     }
